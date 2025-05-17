@@ -1,4 +1,7 @@
 {
+  "build": {
+    "path_prefix": "rustlings"
+  },
   "project": {
     "homepage": "https://rustlings.cool",
     "repository": "https://github.com/rust-lang/rustlings"
@@ -7,17 +10,6 @@
     "analytics": {
       "plausible": {
         "domain": "rustlings.cool"
-      }
-    }
-  },
-  "components": {
-    "artifacts": {
-      "auto": true,
-      "package_managers": {
-        "preferred": {
-          "macos/linux/unix": "curl -L https://raw.githubusercontent.com/rust-lang/rustlings/main/install.sh | bash",
-          "windows": "Start-BitsTransfer -Source https://raw.githubusercontent.com/rust-lang/rustlings/main/install.ps1 -Destination $env:TMP/install_rustlings.ps1; Unblock-File $env:TMP/install_rustlings.ps1; Invoke-Expression $env:TMP/install_rustlings.ps1"
-        }
       }
     }
   }

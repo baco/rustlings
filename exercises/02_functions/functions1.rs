@@ -1,10 +1,6 @@
-// functions1.rs
-//
-// Execute `rustlings hint functions1` or use the `hint` watch subcommand for a
-// hint.
-
+// TODO: Add some function with the name `call_me` without arguments or a return value.
 fn call_me() {}
 
 fn main() {
-    call_me();
+    call_me(); // Don't change this line
 }
