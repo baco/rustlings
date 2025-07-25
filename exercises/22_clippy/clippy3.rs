@@ -8,7 +8,7 @@ fn main() {
     // Assume that you don't know the value of `my_option`.
     // In the case of `Some`, we want to print its value.
     if let Some(s) = my_option {
-        println!("{}", s);
+        println!("{s}");
     }
 
     let my_arr = &[
